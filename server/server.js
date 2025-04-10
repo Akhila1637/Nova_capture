@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://nova-capture-x9y8.vercel.app/",
+    "https://nova-capture-x9y8.vercel.app",
     "https://nova-j9db.vercel.app" 
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
